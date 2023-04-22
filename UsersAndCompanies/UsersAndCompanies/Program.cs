@@ -1,3 +1,4 @@
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using UsersAndCompanies.Actions;
 using UsersAndCompaniesApplications;
@@ -20,6 +21,7 @@ services.AddDbContext<UsersAndCompaniesContext>(options =>
                options.UseSqlServer(configs.GetConnectionString("UsersAndCompaniesConnection")));
 services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 services.AddScoped<IGetUsersUseCase, GetUsersUseCase>();
+services.AddValidatorsFromAssemblyContaining<Program>();
 
 var app = builder.Build();
 

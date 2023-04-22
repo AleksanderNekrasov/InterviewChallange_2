@@ -6,6 +6,8 @@ namespace UsersAndCompaniesDataAccess
     {
         Task<int> DeleteAsync(T entity);
 
+        Task<int> DeleteAsync(Guid id);
+
         Task<IEnumerable<T>> GetAllAsync();
 
         Task<T?> GetAsync(Guid id);

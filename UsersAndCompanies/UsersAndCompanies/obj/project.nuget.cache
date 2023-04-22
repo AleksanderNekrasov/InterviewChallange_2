@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zPWec412yD4nSB2wEPCwbiaxw8sfY3lPdw1B61my3HZU49N6/jGMV+GnV3BqLzVZFQwffo/+n1i4eouCtjG/oA==",
+  "dgSpecHash": "oWNrepKY07yOxUUrATcA4B8ONFNpNwakOywou03xyrsjD3l/KoM8N1u9XY3J0NV9/AqfvUUIu1067Zmh9OCnoQ==",
   "success": true,
   "projectFilePath": "D:\\DEV\\VisualStudio_MyApps\\InterviewChallange_2\\UsersAndCompanies\\UsersAndCompanies\\UsersAndCompanies.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexx\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\alexx\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\alexx\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\alexx\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\alexx\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\alexx\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\alexx\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

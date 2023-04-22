@@ -44,7 +44,7 @@ namespace UsersAndCompaniesDataAccess.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("1f029b50-aa8a-4957-ab62-fae2bfdf13ff"),
+                            Id = new Guid("0ba06365-8ead-47e2-b9f0-ba234083a762"),
                             Address = "Default Address",
                             CompanyName = "Default Company"
                         });
@@ -61,24 +61,30 @@ namespace UsersAndCompaniesDataAccess.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Surname")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id")
                         .HasName("PrimaryKey_Users");
 
                     b.HasIndex("CompanyId");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.HasIndex("Surname")
+                        .IsUnique();
+
                     b.ToTable("Users", (string)null);
 
                     b.HasData(
                         new
                         {
-                            Id = new Guid("009aa297-ca97-4df9-b399-517c2b76e434"),
-                            CompanyId = new Guid("1f029b50-aa8a-4957-ab62-fae2bfdf13ff"),
+                            Id = new Guid("03ce25d6-c10b-45cf-abb3-6d280f4e8e52"),
+                            CompanyId = new Guid("0ba06365-8ead-47e2-b9f0-ba234083a762"),
                             Name = "Default User",
                             Surname = "Default User"
                         });

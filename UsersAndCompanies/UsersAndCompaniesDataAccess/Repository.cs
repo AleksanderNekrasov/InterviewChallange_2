@@ -38,6 +38,7 @@ namespace UsersAndCompaniesDataAccess
                 throw new ArgumentNullException("entity");
             }
 
+            entities.Update(entity);
             return await context.SaveChangesAsync();
         }
 
@@ -50,6 +51,11 @@ namespace UsersAndCompaniesDataAccess
 
             entities.Remove(entity);
             return await context.SaveChangesAsync();
+        }
+
+        public async Task<int> DeleteAsync(Guid id)
+        {
+            return await DeleteAsync(await GetAsync(id));
         }
     }
 }

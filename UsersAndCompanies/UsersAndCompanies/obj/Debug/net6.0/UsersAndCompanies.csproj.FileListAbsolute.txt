@@ -89,3 +89,5 @@ D:\DEV\VisualStudio_MyApps\InterviewChallange_2\UsersAndCompanies\UsersAndCompan
 D:\DEV\VisualStudio_MyApps\InterviewChallange_2\UsersAndCompanies\UsersAndCompanies\obj\Debug\net6.0\UsersAndCompanies.pdb
 D:\DEV\VisualStudio_MyApps\InterviewChallange_2\UsersAndCompanies\UsersAndCompanies\obj\Debug\net6.0\UsersAndCompanies.genruntimeconfig.cache
 D:\DEV\VisualStudio_MyApps\InterviewChallange_2\UsersAndCompanies\UsersAndCompanies\obj\Debug\net6.0\ref\UsersAndCompanies.dll
+D:\DEV\VisualStudio_MyApps\InterviewChallange_2\UsersAndCompanies\UsersAndCompanies\bin\Debug\net6.0\FluentValidation.dll
+D:\DEV\VisualStudio_MyApps\InterviewChallange_2\UsersAndCompanies\UsersAndCompanies\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

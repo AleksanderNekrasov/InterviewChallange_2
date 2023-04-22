@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cPNCvfZXUiyzkcBAl4ZJ8wsmbnj2KJwczO0s4dqIapO3XlFqHXGc4cdyEOLeHBRPBsm3xxOTIWzBgWkyHjyq3g==",
+  "dgSpecHash": "lc7asH3/xlHlYt4eDamgQiN/tB+/hISLTpOtSdwD31FWIwpuDPCrK4gCjEm+Uhag7zbkdA0AxWJk1j9bxl9c7Q==",
   "success": true,
   "projectFilePath": "D:\\DEV\\VisualStudio_MyApps\\InterviewChallange_2\\UsersAndCompanies\\UsersAndCompaniesApplications\\UsersAndCompaniesApplications.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexx\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\alexx\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\alexx\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\alexx\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\alexx\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\alexx\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
